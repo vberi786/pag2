@@ -1,0 +1,18 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@use "utils" as *;
+
+$color_type_0: rgb(226, 236, 253);
+
+.main {
+  @include flex-column;
+  background-color: $color_type_0;
+  zoom:80%;
+}
+.main_layout {
+  position: relative;
+  overflow: hidden;
+}
+.main__item {
+  @include flex-column;
+  position: relative;
+}
